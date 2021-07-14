@@ -6,7 +6,7 @@ import sqlite3
 #pandas, pandas_datareader 설치
 
 try:
-    with sqlite3.connect('C:/Django/workspace/python-class1/section5/database/sqlite.db') as conn: #DB생성(파일)
+    with sqlite3.connect('C:\python\\section5\\databases\\sqlite.db') as conn: #DB생성(파일)
 
         #조회 시작 & 마감 날짜
         start = datetime.datetime(2018,2,4)
